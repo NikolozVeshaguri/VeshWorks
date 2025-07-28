@@ -157,3 +157,22 @@ nav li {
 .site-footer a:hover {
   text-decoration: underline;
 }
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* Makes it round */
+  object-fit: cover;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1E90FF; /* Dodger Blue or your brand color */
+  font-family: sans-serif;
+}
